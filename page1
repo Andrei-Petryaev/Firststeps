@@ -1,0 +1,28 @@
+Часть I. Основы
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Моя первая настоящая HTML-страничка</title>
+</head>
+<body>
+<h1>Привет, мир!</h1>
+<p>Моя первая веб-страничка.</p>
+<script>
+var name=[
+"Андрей",
+"Жора",
+"Жанна"];
+name="Жанна";
+if(name==="Андрей"){
+console.log("Привет мне!");
+} else if (name==="Жора"){
+console.log("Привет пап!");
+} else if (name==="Жанна") {
+console.log("Привет мам!");
+} else {
+console.log("Привет незнакомец!");
+}
+</script>
+</body>
+</html>
